@@ -1,0 +1,16 @@
+.o_form_view:has(.container_bottom){
+    &.o_xxl_form_view{
+        flex-flow: column nowrap !important;
+        overflow: auto !important;
+
+        .o_form_view_container{
+            width: 100% !important;
+        }
+
+        .o_FormRenderer_chatterContainer{
+            &.o-aside{
+                width: 100% !important;
+            }
+        }
+    }
+}
